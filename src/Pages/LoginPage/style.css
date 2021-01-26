@@ -1,0 +1,5 @@
+.loginContainer, .registerContainer{
+    width:30em;
+    position: relative;
+    margin: 8em auto;
+}

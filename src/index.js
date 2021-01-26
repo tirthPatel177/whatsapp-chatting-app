@@ -3,6 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import firebase from 'firebase';
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCw28ngEXMIOTR3N16DTAlh48Y-4TbP_zw",
+  authDomain: "say-it-d40bb.firebaseapp.com",
+  databaseURL: "https://say-it-d40bb-default-rtdb.firebaseio.com",
+  projectId: "say-it-d40bb",
+  storageBucket: "say-it-d40bb.appspot.com",
+  messagingSenderId: "42831643429",
+  appId: "1:42831643429:web:1444b52e0ee66fd089d0cc",
+  measurementId: "G-2E2DDFRXM0"
+};
+
+firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(
   <React.StrictMode>

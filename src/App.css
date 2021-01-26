@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Comfortaa', cursive;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
 }
