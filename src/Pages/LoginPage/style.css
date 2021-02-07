@@ -1,5 +1,13 @@
 .loginContainer, .registerContainer{
-    width:30em;
+    width: 22rem;
     position: relative;
-    margin: 8em auto;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.formC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

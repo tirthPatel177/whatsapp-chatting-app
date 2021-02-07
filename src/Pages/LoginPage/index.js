@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Layout from '../../components/Layout'
-import Card from '../../components/Layout/UI/Card'
+import Card from '../../components/UI/Card'
 import './style.css'
 /**
 * @author
@@ -17,20 +17,22 @@ const LoginPage = (props) => {
     <Layout>
       <div className='loginContainer'>
         <Card>
-          <form>
+          <form className='formC'>
             <input
               name="email"
               type="text"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Email"
+              // className='centerIt'
               />
             <input
               name="password"
-              type="text"
+              type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Password"
+              // className='centerIt'
               />
             <div>
               <button>Login</button>

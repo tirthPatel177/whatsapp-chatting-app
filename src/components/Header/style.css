@@ -3,8 +3,8 @@
     position: relative;
     height: 60px;
     display: flex;
-    background: #363635;
-    background-image: linear-gradient(to left, rgb(158, 207, 209), rgb(118, 132, 133));
+    background: #1da8df;
+    /* background-image: linear-gradient(to left, rgb(158, 207, 209), rgb(118, 132, 133)); */
     justify-content: space-between;
     box-sizing: border-box;
 }
