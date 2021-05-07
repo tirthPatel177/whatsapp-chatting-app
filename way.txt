@@ -1,0 +1,8 @@
+- React
+- Firebase Firestore Realtime db
+- Material UI
+- React Router
+- React Context API ()
+- Google Authentication
+- Deploy using Firebase   
+
