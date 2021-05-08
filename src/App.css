@@ -1,6 +1,7 @@
 .App {
   display: grid;
   place-items: center;
+  /* background-color: hsla(202, 86%, 25%, 0.719); */
   background-color: #96A8B2;
   /* background-color: #dadbd3; */
   height: 100vh;
