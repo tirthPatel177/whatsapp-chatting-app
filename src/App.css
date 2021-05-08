@@ -1,17 +1,17 @@
 .App {
   display: grid;
   place-items: center;
-  background-color: #dee4e6;
+  background-color: #96A8B2;
   /* background-color: #dadbd3; */
   height: 100vh;
 } 
 
 .main_card {
   display: flex;
-  background-color: #fcfdfd;
+  background-color: #D8E0E5;
   /* background-color: #ededed; */
-  margin-top: -50px;
   height: 90vh;
-  width: 90vh;
-  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.8);
+  width: 90vw;
+  margin-top: -50px;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.2);
 }
